@@ -1,0 +1,140 @@
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Untuk memberikan warna background pada seluruh halaman */
+body {
+  background-color: #FFF8DC;
+}
+
+/* Untuk memberikan warna background pada section tertentu */
+section {
+  background-color: #FFF8DC;
+}
+
+
+/* tampilan header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #D2691E;
+  color: #111;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: #111;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* tampilan biodata */
+section#biodata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+section#biodata img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+section#biodata video {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* tampilan keahlian, pekerjaan, pendidikan, kegiatan, dan produk */
+section {
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* tampilan copywriting */
+section#copywriting {
+  padding: 50px;
+  background-color: #D2691E;
+}
+
+section#copywriting h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section#copywriting p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+}
+
+.video:hover video {
+  transform: scale(1.2);
+}
+
+.video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.photo:hover img {
+  transform: scale(1.2);
+}
+
